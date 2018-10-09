@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Flexibits Inc./Fantastical for Mac 2.5.4//EN
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZNAME:GMT+2
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+DTSTART:20000326T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:GMT+1
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+DTSTART:20001029T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20181009T075535Z
+UID:E6037B08-E67C-45B0-B5B4-BEB74B6A8F01
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=Steinmüllerallee 
+ 1\\n51643 Gummersbach\\nGermany;X-APPLE-RADIUS=70.58737967905763;
+ X-TITLE=Steinmüllerallee 1:geo:51.023177,7.562367
+DTEND;TZID=Europe/Berlin:20181010T130000
+TRANSP:OPAQUE
+SUMMARY:Projektkickoff
+LOCATION:Steinmüllerallee 1\n51643 Gummersbach\nGermany
+DESCRIPTION:Projektkickoff\n\n11:00 - 12:30: Organisatorisches\n\n    
+ Vorstellung des Veranstaltungsablaufs\n    Prozessvorstellung: 
+ Master-Vision-und-Konzept-Sprint (angelehnt an den Design Sprint http:
+ //www.gv.com/sprint/)\n    Projektvorstellung: Prof. Dr. Martin 
+ Eisemann\n    Vorstellung der Deliverables & Bewertungskriterien\n    
+ Vorstellung Advanced Seminar: Prof. Dr. Kristian Fischer\n\n12:30 -13:00:
+ \n\n    Experiment No. 1: Erwartungshaltung\, Brainwriting\n\nHausaufgabe:
+ \n\n    Finale Gruppenbildung\n    Projektwahl\n    Strategisches Ziel 
+ für das Projekt definieren: Langfirstiges Ziel - "Warum machen wir 
+ dieses Projekt?"\, "Wo wollen wir in 3 Semestern stehen?"
+CREATED:20181009T075535Z
+DTSTART;TZID=Europe/Berlin:20181010T110000
+SEQUENCE:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+END:VEVENT
+END:VCALENDAR
